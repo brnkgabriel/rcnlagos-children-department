@@ -5,8 +5,8 @@ export default defineNuxtConfig({
   pwa: {
     registerType: 'autoUpdate',
     manifest: {
-      name: 'Nuxt Vite PWA',
-      short_name: 'NuxtVitePWA',
+      name: 'RCN Lagos - Children Department',
+      short_name: 'RCN Lagos - Children Department',
       theme_color: '#ffffff',
       "icons": [
         {
@@ -32,10 +32,10 @@ export default defineNuxtConfig({
         }
       ]
     },
-    // workbox: {
-    //   navigateFallback: '/',
-    //   globPatterns: ['src/**/*.{js,css,html,png,svg,ico}'],
-    // },
+    workbox: {
+      navigateFallback: '/',
+      globPatterns: ['src/**/*.{js,css,html,png,svg,ico}'],
+    },
     client: {
       installPrompt: true,
       // you don't need to include this: only for testing purposes
