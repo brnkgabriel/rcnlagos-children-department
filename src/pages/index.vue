@@ -3,10 +3,10 @@
     Homepage
   </div>
 </template>
-<script lang="ts" setup>
+<script setup lang="ts">
 
 definePageMeta({
-  layout: "default"
+  layout: "main"
 })
 
 useHead(head({
