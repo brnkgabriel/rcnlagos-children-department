@@ -23,12 +23,6 @@ export const head = (headOptions: iHead) => {
       { hid: 'keywords', name: 'keywords', content: 'rcn, rcnlagos, RCN Lagos - Children Department, apostolic, rebirth, transformation, christianity, Matthew 21:13, remnant, network, voice of one, the convergence, threshing floor, 10 hours' },
       { hid: 'google-site-verification', name: 'google-site-verification', content: "gDtsdsW0Ssdl8GrzaZ1Jy3sTtM2DI5e4s2h525waHZs" },
       { hid: "robots", name: "robots", content: "index,follow" }
-    ],
-    link: [
-      {
-        rel: "stylesheet",
-        href: "/css/styles.css"
-      }
     ]
   }
 }
