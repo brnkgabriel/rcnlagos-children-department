@@ -32,10 +32,10 @@ export default defineNuxtConfig({
         }
       ]
     },
-    workbox: {
-      navigateFallback: '/',
-      globPatterns: ['src/**/*.{js,css,html,png,svg,ico}'],
-    },
+    // workbox: {
+    //   navigateFallback: '/',
+    //   globPatterns: ['src/**/*.{js,css,html,png,svg,ico}'],
+    // },
     client: {
       installPrompt: true,
       // you don't need to include this: only for testing purposes
